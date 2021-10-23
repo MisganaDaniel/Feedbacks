@@ -16,9 +16,16 @@
     Feedback: <input type="text" id="Feedback"> 
     <input type="button" value="Submit" onclick="feedback()"> -->
 
-    <div class="card text-center shadow" style="width: 1000px;margin-left:150px;margin-top:100px;border-radius:12px;">
+    <div class="card text-center shadow-lg" style="width: 1000px;margin-left:150px;margin-top:100px;border-radius:12px;">
         <div class="card-header">
-            Give us your feedback below.
+            <div class="row">
+                <div class="col">
+                    <img src="logo.png">
+                </div>
+                <div class="col">
+                    <h1>Give us your feedback below.</h1>
+                </div>
+            </div>
         </div>
         <div class="card-body">
             <div class="row g-3">
@@ -39,7 +46,8 @@
             </div>
             <div class="row g-3">
                 <div class="col">
-                    <input type="text" class="form-control" placeholder="Feedback" id="Feedback">
+                    <!-- <input type="text" class="form-control" placeholder="Feedback" id="Feedback"> -->
+                    <textarea id="Feedback" cols="30" rows="10"></textarea>
                 </div>
             </div>
 
