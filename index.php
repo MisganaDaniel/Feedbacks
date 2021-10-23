@@ -9,26 +9,18 @@
     <script src="main.js"></script>
 </head>
 <body>
-    First Name: <input type="text" id="firstName"> 
+    <!-- First Name: <input type="text" id="firstName"> 
     Last Name: <input type="text" id="LasName"> 
     Email Name: <input type="text" id="Email"> 
     Date: <input type="date" id="Date"> 
     Feedback: <input type="text" id="Feedback"> 
-    <input type="button" value="Submit" onclick="feedback()">
+    <input type="button" value="Submit" onclick="feedback()"> -->
 
     <div class="card text-center">
         <div class="card-header">
             Give us your feedback below.
         </div>
         <div class="card-body">
-
-            First Name: <input type="text" id="firstName"> 
-            Last Name: <input type="text" id="LasName"> 
-            Email Name: <input type="text" id="Email"> 
-            Date: <input type="date" id="Date"> 
-            Feedback: <input type="text" id="Feedback"> 
-            <input type="button" value="Submit" onclick="feedback()">
-
             <div class="row g-3">
                 <div class="col">
                     <input type="text" class="form-control" placeholder="First name" id="firstName">
