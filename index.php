@@ -16,7 +16,7 @@
     Feedback: <input type="text" id="Feedback"> 
     <input type="button" value="Submit" onclick="feedback()"> -->
 
-    <div class="card text-center shadow" style="700px">
+    <div class="card text-center shadow" style="width: 1000px;margin-left:150px;margin-top:100px;border-radius:12px;">
         <div class="card-header">
             Give us your feedback below.
         </div>
