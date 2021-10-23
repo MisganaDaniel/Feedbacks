@@ -16,6 +16,24 @@
     Feedback: <input type="text" id="Feedback"> 
     <input type="button" value="Submit" onclick="feedback()">
 
+    <div class="card text-center">
+        <div class="card-header">
+            Give us your feedback below.
+        </div>
+        <div class="card-body">
+
+            First Name: <input type="text" id="firstName"> 
+            Last Name: <input type="text" id="LasName"> 
+            Email Name: <input type="text" id="Email"> 
+            Date: <input type="date" id="Date"> 
+            Feedback: <input type="text" id="Feedback"> 
+            <input type="button" value="Submit" onclick="feedback()">
+
+        </div>
+        <div class="card-footer text-muted">
+            Thank you for your feedback.
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
