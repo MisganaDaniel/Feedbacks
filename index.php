@@ -29,6 +29,29 @@
             Feedback: <input type="text" id="Feedback"> 
             <input type="button" value="Submit" onclick="feedback()">
 
+            <div class="row g-3">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="First name" id="firstName">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name" id="LasName">
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="col">
+                    <input type="email" class="form-control" placeholder="Email" id="Email">
+                </div>
+                <div class="col">
+                    <input type="date" class="form-control" id="Date">
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Feedback" id="Feedback">
+                </div>
+            </div>
+
+            <input type="button" value="Submit" onclick="feedback()">
         </div>
         <div class="card-footer text-muted">
             Thank you for your feedback.
