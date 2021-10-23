@@ -21,7 +21,7 @@ function feedback(){
     client.onreadystatechange = function() { 
         if(this.readyState == this.DONE) {
             //document.getElementById("response").innerHTML=this.status + this.response; 
-            alert("inserted");
+            location.href = 'thankyou.php';
         }
     }; 
     client.send(requestBody);
