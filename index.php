@@ -22,7 +22,7 @@
                 <div class="col" style="text-align: left;padding-right:-100px;">
                     <img src="logo.png">
                 </div>
-                <div class="col" style="text-align: left;">
+                <div class="col" style="text-align: center;">
                     <h1>Give us your feedback below.</h1>
                 </div>
             </div>
