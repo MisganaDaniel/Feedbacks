@@ -29,7 +29,7 @@
         </div>
         <div class="card-body">
             <div class="row g-3">
-                <div class="col">
+                <div class="col mb-5">
                     <input type="text" class="form-control" placeholder="First name" id="firstName">
                 </div>
                 <div class="col">
@@ -54,7 +54,7 @@
             <input type="button" value="Submit" onclick="feedback()">
         </div>
         <div class="card-footer text-muted">
-            Thank you for your feedback.
+            &copy 2021
         </div>
     </div>
 
