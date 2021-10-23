@@ -19,7 +19,7 @@
     <div class="card text-center shadow-lg" style="width: 1000px;margin-left:150px;margin-top:100px;border-radius:12px;">
         <div class="card-header">
             <div class="row">
-                <div class="col">
+                <div class="col" style="text-align: left;">
                     <img src="logo.png">
                 </div>
                 <div class="col">
