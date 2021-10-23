@@ -17,13 +17,13 @@
     <input type="button" value="Submit" onclick="feedback()"> -->
 
     <div class="card text-center shadow-lg" style="width: 1000px;margin-left:150px;margin-top:100px;border-radius:12px;">
-        <div class="card-header">
+        <div class="card-header" style="padding-top:100px;">
             <div class="row">
                 <div class="col-md-3">
                     <img src="logo.png">
                 </div>
                 <div class="col-md-7">
-                    <h1>Give us your feedback below.</h1>
+                    <h1>Give Us your Feedback Below.</h1>
                 </div>
             </div>
         </div>
