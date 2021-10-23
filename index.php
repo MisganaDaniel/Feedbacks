@@ -47,11 +47,11 @@
             <div class="row g-3">
                 <div class="col">
                     <!-- <input type="text" class="form-control" placeholder="Feedback" id="Feedback"> -->
-                    <textarea id="Feedback" class="form-control" cols="10" rows="30"></textarea>
+                    <textarea id="Feedback" class="form-control" cols="10" rows="10"></textarea>
                 </div>
             </div>
 
-            <input type="button" value="Submit" onclick="feedback()">
+            <input type="button" class="btn btn-primary"value="Submit" onclick="feedback()">
         </div>
         <div class="card-footer text-muted">
             &copy 2021
