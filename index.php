@@ -11,7 +11,7 @@
     First Name: <input type="text" id="firstName"> 
     Last Name: <input type="text" id="LasName"> 
     Email Name: <input type="text" id="Email"> 
-    Date: <input type="date" id="Email"> 
+    Date: <input type="date" id="Date"> 
     Feedback: <input type="text" id="Feedback"> 
     <input type="button" value="Submit" onclick="feedback()">
 </body>
