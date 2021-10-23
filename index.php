@@ -37,7 +37,7 @@
                 </div>
             </div>
             <div class="row g-3">
-                <div class="col">
+                <div class="col mb-5">
                     <input type="email" class="form-control" placeholder="Email" id="Email">
                 </div>
                 <div class="col">
@@ -47,7 +47,7 @@
             <div class="row g-3">
                 <div class="col">
                     <!-- <input type="text" class="form-control" placeholder="Feedback" id="Feedback"> -->
-                    <textarea id="Feedback" cols="30" rows="10"></textarea>
+                    <textarea id="Feedback" class="form-control" cols="10" rows="30"></textarea>
                 </div>
             </div>
 
