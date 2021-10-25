@@ -9,12 +9,6 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <!-- First Name: <input type="text" id="firstName"> 
-    Last Name: <input type="text" id="LasName"> 
-    Email Name: <input type="text" id="Email"> 
-    Date: <input type="date" id="Date"> 
-    Feedback: <input type="text" id="Feedback"> 
-    <input type="button" value="Submit" onclick="feedback()"> -->
 
     <div class="card text-center shadow-lg" style="width: 1000px;margin-left:150px;margin-top:100px;border-radius:12px;">
         <div class="card-header" style="padding-top:10px;padding-bottom:10px;">
