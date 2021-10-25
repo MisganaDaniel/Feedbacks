@@ -23,7 +23,7 @@
                     <img src="logo.png">
                 </div>
                 <div class="col-md-7">
-                    <h1 style="margin-top:15px;color:lightblue;">Give Us your Feedback Below.</h1>
+                    <h1 style="margin-top:15px;color:blue;">Give Us your Feedback Below.</h1>
                 </div>
             </div>
         </div>
