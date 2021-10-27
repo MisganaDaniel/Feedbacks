@@ -7,8 +7,9 @@ function feedback(){
     var email = document.getElementById("Email").value;
     var date = document.getElementById("Date").value;
     var feedback = document.getElementById("Feedback").value;
+    var UID = "Instance_Misgana";
 
-    var requestBody = "{\"first_name\":\""+ firstName +"\",\"last_name\":\""+ lastName +"\",\"email\":\"" + email +"\",\"date\":\""+ date +"\",\"feedback\":\""+ feedback +"\"}";
+    var requestBody = "{\"first_name\":\""+ firstName +"\",\"last_name\":\""+ lastName +"\",\"email\":\"" + email +"\",\"date\":\""+ date +"\",\"feedback\":\""+ feedback + "\",\"ui_id\":\"" + UID + "\"}";
     var client=new XMLHttpRequest();
     client.open("post","https://dev105946.service-now.com/api/now/table/x_677549_dengene_0_feedback");
 
